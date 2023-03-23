@@ -1,4 +1,59 @@
+/* body section */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
+}
+:root {
+  --color-firs: #4d5ae5;
+  --color-seccond: #2e2f42;
+  --color-mail: #434455;
+}
+
+/* Logo */
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-firs);
+  text-decoration: none;
+}
+.logo-item {
+  color: var(--color-seccond);
+}
+
+/* nav saction */
+.list {
+  list-style: none;
+}
+.list-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-seccond);
+}
+
+.link {
+  text-decoration: none;
+}
+.link :hover {
+  color: #404bbf;
+}
+.link :focus {
+  color: #404bbf;
+}
+
+/* address section */
+.address {
+  font-style: normal;
+}
+
+.address-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-mail);
 }
