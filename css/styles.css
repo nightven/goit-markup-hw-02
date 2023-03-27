@@ -1,59 +1,82 @@
-/* body section */
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
 :root {
-  --color-firs: #4d5ae5;
-  --color-seccond: #2e2f42;
-  --color-mail: #434455;
+  --brand-color: #434455;
+  --header-link-color: #2e2f42;
+  --logo-color: #4d5ae5;
 }
-
-/* Logo */
-.logo {
+/* styles for index.html */
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.link {
+  text-decoration: none;
+}
+/* logo */
+.nav-logo {
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  color: var(--logo-color);
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-firs);
   text-decoration: none;
+  text-transform: uppercase;
 }
-.logo-item {
-  color: var(--color-seccond);
+.nav-logo-item {
+  color: var(--header-link-color);
 }
 
-/* nav saction */
+/* navigation */
+.nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
 .list {
   list-style: none;
 }
-.list-menu {
+.list .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-seccond);
+  color: var(--header-color);
 }
-
-.link {
-  text-decoration: none;
-}
-.link :hover {
-  color: #404bbf;
-}
-.link :focus {
+.list .link:hover,
+.list .link:focus {
   color: #404bbf;
 }
 
-/* address section */
+/* address */
 .address {
   font-style: normal;
 }
 
-.address-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-mail);
+/* footer */
+.footer {
+  background-color: var(--header-link-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--logo-color);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer-logo-item,
+.footer .text {
+  color: #f4f4fd;
 }
