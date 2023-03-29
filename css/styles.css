@@ -14,6 +14,8 @@ body {
   color: var(--brand-color);
   background-color: var(--background-color);
 }
+
+/* header section */
 .link {
   text-decoration: none;
 }
@@ -64,22 +66,19 @@ body {
 .address-item.link {
   color: var(--brand-color);
 }
-hero sect
-
 /* hero section */
 .hero {
-  background-color: var(--header-link-color);
+  background-color: #2e2f42;
 }
-.head {
+.hero-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--header-link-color);
+  line-height: 1.07;
 }
 
 /* batton */
@@ -110,6 +109,48 @@ hero sect
 .features-paragraf {
   letter-spacing: 0.02em;
 }
+
+/* product section */
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--header-link-color);
+}
+
+/* team seection */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+.team-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-link-color);
+}
+.team-posicion {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 /* footer */
 .footer {
   background-color: var(--header-link-color);
@@ -130,43 +171,4 @@ hero sect
 .footer-logo-item,
 .footer .text {
   color: #f4f4fd;
-}
-
-/* product section */
-.title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-/* team seection */
-.team {
-  background-color: #f4f4fd;
-}
-
-.team-item {
-  background-color: #ffffff;
-}
-.team-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-.team-posicion {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
