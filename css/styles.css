@@ -116,10 +116,12 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
   color: var(--header-link-color);
 }
 
@@ -171,4 +173,43 @@ body {
 .footer-logo-item,
 .footer .text {
   color: #f4f4fd;
+}
+
+/**
+  |============================
+  | portfolio page
+  |============================
+*/
+/* filter */
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background: #f4f4fd;
+  color: var(--logo-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* product */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--header-link-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
 }
