@@ -14,8 +14,12 @@ body {
   color: var(--brand-color);
   background-color: var(--background-color);
 }
+/**
+  |============================
+  | header section
+  |============================
+*/
 
-/* header section */
 .link {
   text-decoration: none;
 }
@@ -66,7 +70,12 @@ body {
 .address-item.link {
   color: var(--brand-color);
 }
-/* hero section */
+/**
+  |============================
+  | hero section
+  |============================
+*/
+
 .hero {
   background-color: #2e2f42;
 }
@@ -97,8 +106,12 @@ body {
 .btn:focus {
   color: #404bbf;
 }
+/**
+  |============================
+  | features section
+  |============================
+*/
 
-/* features section */
 .features-head {
   font-weight: 500;
   font-size: 20px;
@@ -109,8 +122,12 @@ body {
 .features-paragraf {
   letter-spacing: 0.02em;
 }
+/**
+  |============================
+  | product section
+  |============================
+*/
 
-/* product section */
 .title {
   font-family: 'Roboto';
   font-style: normal;
@@ -124,8 +141,12 @@ body {
 
   color: var(--header-link-color);
 }
+/**
+  |============================
+  | team seection
+  |============================
+*/
 
-/* team seection */
 .team {
   background-color: #f4f4fd;
 }
@@ -152,8 +173,12 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+/**
+  |============================
+  | footer
+  |============================
+*/
 
-/* footer */
 .footer {
   background-color: var(--header-link-color);
 }
